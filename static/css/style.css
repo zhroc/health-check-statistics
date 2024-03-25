@@ -1,0 +1,273 @@
+html,body { 
+	font-family: 微软雅黑, 
+	MicrosoftYahei, sans-serif; 
+	color:#fff; 
+	background:#00065b url(../img/bg.jpg);    
+	background-size: 100% 100%;
+	background-position:0 0; 
+	width: 100%; 
+	height: 100%; 
+	background-repeat: no-repeat;
+	/*overflow:hidden;*/
+}
+
+body {
+	padding: 0rem 1.5rem 0rem 1.5rem;
+	padding: 0rem 3rem 0rem 3rem;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.tab_bar {
+	color: white;
+}
+
+.tab_bar .col-sm-1 {
+	margin: auto;
+	margin-top: 3rem;
+}
+
+.col-sm-1 a {
+	/*background: url(../img/bnt.png);*/
+	background-repeat: no-repeat;
+	padding: 0.4rem 0.8rem 0.5rem 1rem;
+}
+
+.ls {
+	height: 100%;
+	margin-top: -5vh;
+}
+
+.lt {
+	height: 25vh;
+	background: url(../img/pulefttop.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-size: contain;*/
+}
+
+.lb {
+	height: 30vh;
+	background: url(../img/puleftmidd.png);
+	background-repeat: no-repeat;
+	background-size: 100% 94%;
+	/*background-size: contain;*/
+	margin-top: 1vh;
+}
+
+.cs {
+	height: 50vh;
+}
+
+.cm {
+	height: 100%;
+	background: url(../img/pumiddtop2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 98%;
+	padding: 0rem 1rem 0rem 1rem;
+	/*overflow-y: hidden;*/
+	overflow:auto;
+}
+
+
+.cmt {
+	height: 40vh;
+	background: rgba(1,202,217,.2);
+	color: #FFF;
+	border-color:#1c1c1ad4;
+}
+
+
+
+.rs {
+	height: 50vh;
+	margin-top: -6vh;
+}
+
+.rt {
+	height: 18%;
+	/*background: url(../img/puleftmidd.png);*/
+	background: rgba(1,54,108,0.5);
+	margin-bottom: 0.8rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 5vh;
+	margin-top: 1vh;
+	padding-top: 1vh;
+}
+
+.rb {
+	height: 82vh;
+	background: url(../img/double111.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*padding: 0rem 0rem 2rem 0rem;*/
+}
+
+.bdiv {
+	height: 36vh;
+	width: 63vw;
+	/*margin-top: 0.5rem;*/
+	/*background: url(../img/puleftbott.png);*/
+	/*background-size: 100% 100%;*/
+	/*background-repeat: no-repeat;*/
+}
+
+.leftbdiv, .rightbdiv{
+	float: left;
+	height: 100%;
+	width: 49%;
+	background: url(../img/pumiddbott.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.rightbdiv{
+	float: right;
+}
+
+.dontai {
+	padding-top: 0.2rem;
+	padding-left: 1.8rem;
+}
+
+#gauge {
+	height: 74%;
+	width: 30%;
+	padding: 0rem 0rem 0rem 1rem;
+	display: inline-block;
+}
+
+#lhistogram{
+	float: right;
+	background: rgba(1,202,217,.2);
+	height: 74%;
+	width: 65%;
+	padding: 1rem 1rem 1rem 1rem;
+	margin-right: 1rem;
+	display: inline-block;
+}
+
+#lhistogram div{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#lhistogram p {
+	margin-bottom: 2rem;
+}
+
+#lhistogram a {
+	font-size: 2.6rem;
+	text-shadow: 2px 2px 5px #1c1c1a;
+	cursor:pointer;
+}
+
+#wordcloud {
+	float: right;
+	/*background: rgba(1,202,217,.2);*/
+	height: 82%;
+	width: 94%;
+	/*padding: 1rem 1rem 1rem 1rem;*/
+	margin-right: 1rem;
+	display: inline-block;
+}
+
+#rep {
+	color: #7de54b;
+}
+
+#unr {
+	color: #fedc01;
+}
+
+#abn {
+	color: #ff4236;
+}
+
+#pie {
+	height: 72%;
+	padding: 0rem 1rem 0rem 1rem;
+}
+
+#ntime {
+	color: #daf6ff;
+    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+	font-size: 2.6rem;
+	cursor:pointer;
+}
+
+
+
+#histogram {
+	height: 80%;
+	padding: 0rem 1rem 0rem 1rem;
+}
+
+.th1 {
+	width: 12%;
+}
+
+.th2 {
+	width: 16%;
+}
+
+.th3 {
+	width: 24%;
+}
+
+.th4 {
+	width: 48%;
+}
+
+#lagclass {
+	height: 92%;
+	padding: 0rem 1rem 0rem 1rem;
+}
+
+
+
+/*
+滚动条美化
+ */
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+    background-color: #292825;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #cfcfd1;
+    -webkit-box-shadow: inset 0 0 6px #cfcfd1;
+    border-radius: 10px;
+    background-color:#292825;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px #3b3a35;
+    -webkit-box-shadow: inset 0 0 6px #3b3a35;
+    background-color: #3b3a35;
+}
+
+
+/*设置 tbody高度大于400px时 出现滚动条*/
+table tbody {
+    display: block;
+    height: 38vh;
+    overflow-y: scroll;
+}
+table thead, tbody tr {
+	font-size: 0.9rem;
+    display: table;
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
